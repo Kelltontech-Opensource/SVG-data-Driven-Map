@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+        <title>SVG data Driven Map</title>
+        <style type="text/css">
+            html { height: 100% }
+            body { height: 100%; margin: 0px; padding: 0px }
+        </style>
+    <script src="js/jquery.js"></script>
+    <script src="//cdn.jsdelivr.net/velocity/1.2.1/velocity.min.js"></script>
+    <script src="js/d3/d3.min.js" charset="utf-8"></script>
+    <script src="js/lanemap.js"></script>
+
+    </head>
+    <body>
+    <section id="lanemap" class="hidden-xs hidden-sm">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>Data Driven SVG Map</h1>
+            </div>
+        </div>
+        <div class="row" style="width: 350px; margin: 0 auto;">
+            <svg width="350" height="80">
+                <path stroke="rgb(37,223,0)" stroke-width="7" 
+                      d="M1 25 l100 0"/>
+                <text x="110" y="27" fill="black">= Favorable Supply to Demand</text>
+                <path stroke="rgb(255,255,5)" stroke-width="7"
+                      d="M1 50 l100 0"/>
+                <text x="110" y="52" fill="black">= Neutral Supply to Demand</text>
+                <path stroke="rgb(255,0,73)" stroke-width="7"
+                      d="M1 75 l100 0"/>
+                <text x="110" y="77" fill="black">= Poor Supply to Demand</text>
+            </svg>
+        </div>
+        <div id="map" class="row" style="margin-left: auto;
+                margin-right: auto;
+                width: 950px;">
+            
+        </div>
+    </div>
+</section>
+    </body>
+</html>
