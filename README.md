@@ -9,14 +9,14 @@
 ## Features
   * It can be integrate with All language which support java script. For Example : Java ,.Net, PHP , Python etc. 
   * **E-commerce** This Is Useful for showing e-commerce supply chain Service.
-  ***Shipment Service** This Is Useful for showing supply chain Service.
+  * **Shipment Service** This Is Useful for showing supply chain Service.
 
 
 ## How to Use 
 
-* ** ** Simply Download and Use.
+*  Simply Download and Use.
 
 ## Requirement 
-  * ** ** PHP , MYSQL. 
+  * jquery , d3,and json. 
 
 ## End 
